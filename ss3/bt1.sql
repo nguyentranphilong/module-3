@@ -91,4 +91,20 @@ FROM student s
 JOIN mark m ON s.student_id = m.student_id
 JOIN subject sub ON m.sub_id = sub.sub_id
 ORDER BY m.mark DESC, s.student_name ASC;
+-- 6,7,8 làm bt ss4 nha anh <3 
+-- 6. Hiển thị tất cả các thông tin môn học (bảng subject) có credit lớn nhất.
+SELECT *
+FROM subject
+WHERE credit = (SELECT MAX(credit) FROM subject);
+-- 7. Hiển thị các thông tin môn học có điểm thi lớn nhất.
+SELECT s.sub_id, s.sub_name, m.mark
+FROM subject s
+JOIN mark m ON s.sub_id = m.sub_id
+WHERE m.mark = (SELECT MAX(mark) FROM mark);
+-- 8. Hiển thị các thông tin sinh viên và điểm trung bình của mỗi sinh viên, xếp hạng theo thứ tự điểm giảm dần
+SELECT st.student_id, st.student_name, AVG(m.mark) AS avg_mark
+FROM student st
+JOIN mark m ON st.student_id = m.student_id
+GROUP BY st.student_id
+ORDER BY avg_mark DESC;
 
