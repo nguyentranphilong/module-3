@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    position: relative; /* Để có thể sử dụng hiệu ứng nổi */
+    padding: 5px 10px; /* Thêm khoảng cách xung quanh */
+    border-radius: 5px; /* Bo góc cho hiệu ứng */
+    transition: transform 0.3s, box-shadow 0.3s; /* Thêm hiệu ứng chuyển đổi mượt mà */
+}
+
+.nav a:hover {
+    transform: translateY(-5px); /* Di chuyển lên một chút */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Tạo hiệu ứng nổi */
+    background: rgba(255, 255, 255, 0.2); /* Nền nhẹ khi hover */
+}
+
+.login {
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    background: #f5f5f5;
+    min-height: 500px;
+}
+
+.sidebar {
+    width: 15%;
+    padding: 10px;
+    background: #eaeaea;
+}
+
+.sidebar a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+    background: #fff;
+}
+
+.ads {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ads div {
+    background: #eaeaea;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
