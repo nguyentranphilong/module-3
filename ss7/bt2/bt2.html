@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Hoạt Hình</title>
+    <link rel="stylesheet" href="bt2.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+    <div class="logo">
+        <h1>Hoạt Hình Hay</h1>
+    </div>
+    <nav class="head-link">
+        <a href="#home">Trang Chủ</a>
+        <a href="#about">Giới Thiệu</a>
+        <a href="#contact">Liên Hệ</a>
+    </nav>
+</header>
+
+<!-- Content -->
+<main>
+    <div class="left-content">
+        <ul>
+            <li><a href="#" onclick="loadVideo('video1.mp4')">Video 1</a></li>
+            <li><a href="#" onclick="loadVideo('video2.mp4')">Video 2</a></li>
+            <li><a href="#" onclick="loadVideo('video3.mp4')">Video 3</a></li>
+        </ul>
+    </div>
+    <div class="right-content">
+        <video id="videoPlayer" controls autoplay>
+            <source src="video1.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 - Website Hoạt Hình Hay. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
