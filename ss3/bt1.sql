@@ -108,3 +108,4 @@ JOIN mark m ON st.student_id = m.student_id
 GROUP BY st.student_id
 ORDER BY avg_mark DESC;
 
+
