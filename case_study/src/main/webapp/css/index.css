@@ -1,0 +1,51 @@
+/* Cài đặt nền của trang */
+body {
+    background-color: #f8f9fa; /* Nền sáng để làm nổi bật nội dung */
+    font-family: Arial, sans-serif; /* Đặt font chữ cho toàn trang */
+}
+
+/* Cài đặt nền của container */
+.container {
+    background-color: #ffffff; /* Nền trắng cho phần nội dung */
+    border: 1px solid #dddddd; /* Viền nhẹ để tạo sự phân biệt */
+    border-radius: 8px; /* Bo góc cho container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng đổ bóng */
+    padding: 20px; /* Khoảng cách bên trong container */
+    margin-top: 20px; /* Khoảng cách từ phần trên */
+}
+
+
+/* Cài đặt tiêu đề */
+h1 {
+    color: #28a745; /* Màu xanh lá cây cho tiêu đề */
+    font-size: 2.5rem; /* Kích thước lớn cho tiêu đề */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+}
+
+/* Cài đặt liên kết */
+a {
+    color: #007bff; /* Màu xanh dương cho liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    font-size: 1.2rem; /* Kích thước chữ cho liên kết */
+}
+
+a:hover {
+    color: #0056b3; /* Màu xanh dương đậm khi di chuột qua */
+    text-decoration: underline; /* Thêm gạch chân khi di chuột qua */
+}
+
+/* Cài đặt thông báo thành công */
+.alert-success {
+    max-width: 300px; /* Giới hạn chiều rộng của thông báo */
+    margin: 10px auto; /* Căn giữa */
+    padding: 10px; /* Padding cho thông báo */
+    font-size: 14px; /* Kích thước chữ */
+    border-radius: 8px; /* Bo góc cho thông báo */
+    position: fixed; /* Cố định thông báo */
+    top: 20px; /* Đặt ở phần trên của trang */
+    left: 50%; /* Căn giữa theo chiều ngang */
+    transform: translateX(-50%); /* Đảm bảo căn giữa tuyệt đối */
+    z-index: 1000; /* Đặt trên cùng của các phần tử khác */
+}
+
+

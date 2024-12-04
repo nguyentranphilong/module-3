@@ -1,0 +1,71 @@
+
+.thead-pascal {
+    background-color: #48D1CC; /* Màu xanh bạc hà cho thead */
+    color: #1e1e19; /* Màu chữ trắng */
+}
+
+.tbody-pascal tr:nth-child(even) {
+    background-color: #bbfcf6; /* Màu xanh biển nhạt cho các hàng chẵn */
+}
+
+.tbody-pascal tr:nth-child(odd) {
+    background-color: #e8fff8; /* Màu be nhạt cho các hàng lẻ */
+}
+
+.tbody-pascal tr:hover {
+    background-color: #8cbebe; /* Màu xám xanh nhạt khi hover */
+}
+
+.alert-success {
+    background-color: #05ea7a; /* Màu xanh đậm hơn */
+    color: #ffffff; /* Màu chữ trắng rõ hơn */
+    font-weight: bold; /* Chữ đậm hơn */
+    padding: 10px 15px; /* Giữ kích thước gọn gàng */
+    border-radius: 5px; /* Bo tròn góc */
+    position: relative; /* Để cho nút đóng có thể đặt đúng vị trí */
+    z-index: 1000; /* Đảm bảo nó hiển thị trên các phần tử khác */
+}
+
+
+th, td {
+    text-align: center;
+    white-space: nowrap; /* Ngăn không cho văn bản xuống dòng trong tất cả các ô tiêu đề */
+}
+.page-title {
+    text-align: center;
+    font-family: Serif, sans-serif;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+
+/* Thay đổi màu nền của hàng khi hover */
+table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Hiệu ứng hover cho các nút */
+.btn-custom {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3; /* Màu nền khi hover cho nút chỉnh sửa */
+    transform: scale(1.05); /* Tăng kích thước nút một chút */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Màu nền khi hover cho nút xóa */
+    transform: scale(1.05); /* Tăng kích thước nút một chút */
+}
+
+/* Hiệu ứng hover cho liên kết */
+.text-left a {
+    transition: color 0.3s, text-decoration 0.2s;
+}
+
+.text-left a:hover {
+    color: #0056b3; /* Màu chữ khi hover */
+    text-decoration: underline; /* Gạch chân liên kết khi hover */
+}
+
