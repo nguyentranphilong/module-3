@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7597f533-caf9-4a2c-9c79-ccaf289689b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../case/bt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/org/example/case_study/controller/StudentServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/org/example/case_study/model/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/org/example/case_study/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/org/example/case_study/repository/BaseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/org/example/case_study/repository/studentRepo/IStudentRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/org/example/case_study/repository/studentRepo/StudentRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/org/example/case_study/service/IStudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/classes/java/main/org/example/case_study/service/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/libs/case_study-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/tmp/compileJava/compileTransaction/stash-dir/StudentServlet.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/org/example/case_study/controller/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/org/example/case_study/model/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/org/example/case_study/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/org/example/case_study/repository/BaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/org/example/case_study/repository/studentRepo/IStudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/org/example/case_study/repository/studentRepo/StudentRepoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/org/example/case_study/service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/java/org/example/case_study/service/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/css/lists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/css/update.css" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/css/update.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/src/main/webapp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/main/webapp/update.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2psbD9REMfTMefqXcwHW3FhqdVN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build case2.0.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 9.0.97.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/codegym/module3/case_study1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\module3\case2.0\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.97" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.97" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Gradle___com_example___case2_0_1_0_SNAPSHOT_war/" />
+      <deployment>
+        <artifact name="Gradle : com.example : case2_0-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Gradle___com_example___case2_0_1_0_SNAPSHOT_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5cc7a701-3874-4f67-8e08-dc43373e8e0b" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : case2_0-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7597f533-caf9-4a2c-9c79-ccaf289689b7" name="Changes" comment="" />
+      <created>1733557608818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733557608818</updated>
+      <workItem from="1733557609827" duration="127000" />
+      <workItem from="1733557890970" duration="40000" />
+      <workItem from="1733557966397" duration="35000" />
+      <workItem from="1733558006712" duration="5000" />
+      <workItem from="1733558026663" duration="104000" />
+      <workItem from="1733558169737" duration="48000" />
+      <workItem from="1733558251024" duration="67000" />
+      <workItem from="1733558339785" duration="18000" />
+      <workItem from="1733558371427" duration="110000" />
+      <workItem from="1733558506000" duration="83000" />
+      <workItem from="1733558610135" duration="12000" />
+      <workItem from="1733558632413" duration="6000" />
+      <workItem from="1733558676190" duration="21000" />
+      <workItem from="1733558707472" duration="31000" />
+      <workItem from="1733558747178" duration="867000" />
+      <workItem from="1733559781570" duration="3000" />
+      <workItem from="1733561717482" duration="16000" />
+      <workItem from="1733561741154" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

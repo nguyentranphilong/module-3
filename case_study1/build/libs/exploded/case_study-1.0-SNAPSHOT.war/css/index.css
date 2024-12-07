@@ -1,0 +1,87 @@
+/* Cài đặt nền trang */
+body {
+    background: linear-gradient(135deg, #ffeb3d, #ff5722); /* Nền chuyển màu rực rỡ, tươi mới */
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #495057;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cài đặt container chính */
+.container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    animation: bounceIn 1s ease;
+}
+
+/* Cài đặt tiêu đề */
+h1 {
+    font-size: 3rem;
+    color: #ff5722;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(255, 165, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Cài đặt liên kết */
+a {
+    color: #ffeb3d;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffc107;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* Cài đặt thông báo thành công */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 128, 0, 0.3);
+    transform-origin: center;
+    animation: bounceIn 0.5s ease;
+}
+
+/* Animation thông báo */
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Hiệu ứng responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+}
+

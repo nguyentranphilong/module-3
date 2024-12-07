@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to bottom right, #ffeb3d, #e91e63); /* Nền tươi sáng, năng động */
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Container form chính */
+.form-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    animation: bounceIn 1s ease;
+}
+
+/* Nút chính */
+.btn-primary {
+    background-color: #ff5722;
+    border-color: #ff7043;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ffab91;
+    border-color: #ff7043;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.5);
+}
+
+/* Hiệu ứng Label Form */
+.form-check-label {
+    font-weight: bold;
+    color: #ffeb3d;
+    margin-right: 15px;
+}
+
+/* Tiêu đề Header vui nhộn */
+.header-title {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 3rem;
+    color: #ffeb3d;
+    text-shadow: 3px 3px 5px rgba(255, 235, 59, 0.5);
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+}
+
+/* Gradient animation dưới text */
+.header-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, #ff5722, #ffeb3d);
+    border-radius: 5px;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
+}
+
+.header-title:hover::before {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+/* Animation vui nhộn */
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

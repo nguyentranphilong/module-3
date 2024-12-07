@@ -18,26 +18,6 @@
 
 <div class="container mt-4">
     <h1 class="page-title">Danh sách học viên CODEGYMER</h1>
-<%--    <c:if test="${not empty errorMessage}">--%>
-<%--        <div class="alert alert-danger mt-2" role="alert" id="errorAlert">--%>
-<%--                ${errorMessage}--%>
-<%--        </div>--%>
-<%--    </c:if>--%>
-    <!-- Hàng cho nút thêm và ô tìm kiếm -->
-<%--    <div class="row mb-4 align-items-center">--%>
-<%--        <div class="col-auto">--%>
-<%--            <a href="?action=create" class="btn btn-success">Thêm mới học viên</a>--%>
-<%--        </div>--%>
-<%--        <div class="col">--%>
-<%--            <form action="student-servlet" method="get" class="form-inline d-flex">--%>
-<%--                <input type="hidden" name="action" value="search">--%>
-<%--                <input type="text" name="search" class="form-control flex-grow-1" placeholder="Nhập tên học viên cần tìm..." id="searchInput">--%>
-<%--                <button type="submit" class="btn btn-primary ml-2 align-self-center">--%>
-<%--                    <i class="fas fa-search"></i>--%>
-<%--                </button>--%>
-<%--            </form>--%>
-<%--        </div>--%>
-<%--    </div>--%>
     <div class="row mb-4 align-items-center">
         <div class="col-auto">
             <a href="?action=create" class="btn btn-success">Thêm mới học viên</a>
@@ -82,7 +62,7 @@
             <c:when test="${not empty students}">
                 <c:forEach items="${students}" var="s" varStatus="status">
                     <tr>
-<%--                        <td>${s.id}</td>--%>
+                            <%--                        <td>${s.id}</td>--%>
                         <td>${status.index + 1}</td>
                         <td>${s.name}</td>
                         <td>${s.getDateFormat()}</td>

@@ -47,5 +47,3 @@ a:hover {
     transform: translateX(-50%); /* Đảm bảo căn giữa tuyệt đối */
     z-index: 1000; /* Đặt trên cùng của các phần tử khác */
 }
-
-
